@@ -9,7 +9,7 @@ namespace inlämningsuppgift4_5
             Console.WriteLine("Skriv in ett heltal");
             string heltal = Console.ReadLine();
             string nytal = "";
-            for (int i = 0; i < heltal.Length; i++)
+            for (int a = 0; a < heltal.Length; a++)
             {
                 string tecken = heltal[i].ToString();
                 try
